@@ -2,5 +2,4 @@
 
 Simply: [![Build Status][build-badge]][build-page]
 
-[build-page]: https://travis-ci.org/sophrinix/ti-travis-experiments
-[build-badge]: http://img.shields.io/travis/sophrinix/ti-travis-experiments.svg?style=flat-square
+[build-page]: https://travis-ci.org/Sophrinix/ti-travis-experiments.svg?branch=master&style=flat-square

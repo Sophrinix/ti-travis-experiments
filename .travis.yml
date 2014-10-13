@@ -4,9 +4,8 @@ env:
 script:
   - cd app
   - titanium build $TI_OPTS --platform ios --ios-version $IOS_VERSION
-  - killall -9 node
 before_install:
-  - export TI_OPTS="--no-progress-bars --no-prompt --no-banner --log-level info"
+  - export TI_OPTS="--build-only --no-progress-bars --no-prompt --no-banner --log-level info"
   - npm install --global titanium
   - mkdir -p $HOME/.titanium
   - cp auth_session.json $HOME/.titanium/auth_session.json
